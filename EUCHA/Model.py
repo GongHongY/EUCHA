@@ -47,7 +47,7 @@ class ResnetBlock(nn.Module):
         return out
 
 class Base_Model(nn.Module):
-    def __init__(self, input_nc, output_nc, ngf=32, use_dropout=False, padding_type='reflect', n_blocks=6,):
+    def __init__(self, input_nc, output_nc, ngf=16, use_dropout=False, padding_type='reflect', n_blocks=6,):
         super(Base_Model,self).__init__()
         print(input_nc,output_nc)
         
