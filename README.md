@@ -17,10 +17,10 @@
 
 ### Pretrained Weights and Dataset  
 Download our model weights on Baidu cloud disk:  
-链接：https://pan.baidu.com/s/1DiVatiPgZIxo2wZYelGdGw?pwd=GHYU
+https://pan.baidu.com/s/1DiVatiPgZIxo2wZYelGdGw?pwd=GHYU
 
 Download our test datasets on Baidu cloud disk:  
-链接：https://pan.baidu.com/s/12KHgV4ps483cASonDuLQPQ?pwd=GHYU
+https://pan.baidu.com/s/12KHgV4ps483cASonDuLQPQ?pwd=GHYU
 
 ### Train  
  `python train.py --type 0 -train_batch_size 4 --gpus 0 `
